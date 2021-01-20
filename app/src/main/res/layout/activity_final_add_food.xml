@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalAddFood"
+   android:background="@drawable/my_bg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:gravity="center"
+        android:text="Food Waste Reduction"
+        android:textSize="35sp"
+        android:textColor="@android:color/holo_orange_light"
+        android:id="@+id/sign"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Add Food For PickUp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/sign1"
+        android:layout_below="@id/sign"
+        ></TextView>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_below="@+id/sign1"
+      android:layout_margin="20dp"
+      android:id="@+id/f1"
+      >
+   <EditText
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:hint="Food Item Name"
+       android:textColorHint="@android:color/background_dark"
+       android:background="@android:color/white"
+       android:id="@+id/fn1"
+       ></EditText>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/qty1"
+        android:background="@android:color/white"
+        ></Spinner>
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/f1"
+        android:layout_margin="20dp"
+        android:id="@+id/f2"
+        >
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Food Item Name"
+            android:textColorHint="@android:color/background_dark"
+            android:background="@android:color/white"
+            android:id="@+id/fn2"
+            ></EditText>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/qty2"
+            android:background="@android:color/white"
+            ></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/f2"
+        android:layout_margin="20dp"
+        android:id="@+id/f3"
+        >
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Food Item Name"
+            android:textColorHint="@android:color/background_dark"
+            android:background="@android:color/white"
+            android:id="@+id/fn3"
+            ></EditText>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/qty3"
+            android:background="@android:color/white"
+            ></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/f3"
+        android:layout_margin="20dp"
+        android:id="@+id/f4"
+        >
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Food Item Name"
+            android:textColorHint="@android:color/background_dark"
+            android:background="@android:color/white"
+            android:id="@+id/fn4"
+            ></EditText>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/qty4"
+            android:background="@android:color/white"
+            ></Spinner>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_light"
+        android:text="Done"
+        android:textColor="@android:color/white"
+        android:id="@+id/done"
+        ></Button>
+</RelativeLayout>

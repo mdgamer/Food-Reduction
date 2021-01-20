@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"
+        ></TextView>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_centerInParent="true"
+        android:textColorHint="@android:color/white"
+         />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/email"
+        android:textColorHint="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password (At Least 8 Characters)"
+        android:inputType="textPassword"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/name"
+        android:textColorHint="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/password"
+        android:textColorHint="@android:color/white"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sign Up"
+        android:id="@+id/signup"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:textColorHint="@android:color/white"
+        ></Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="386dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/email"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="already registered ?"
+        android:layout_above="@id/signup"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_above="@id/signup"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/login"
+        ></TextView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "492099530404",
+    "firebase_url": "https://foodwastereduction-3c66a.firebaseio.com",
+    "project_id": "foodwastereduction-3c66a",
+    "storage_bucket": "foodwastereduction-3c66a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492099530404:android:faa8980d73a9fb77878031",
+        "android_client_info": {
+          "package_name": "com.example.foodwastereduction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492099530404-vog2udi9u49ob06j1pf98venhhpd5och.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodwastereduction",
+            "certificate_hash": "cd402a3424099b81b4bfdd3e9206e0e32124095b"
+          }
+        },
+        {
+          "client_id": "492099530404-g2ltj1q3tau3rb3ehfoo0df0cq1pgc5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRxhnuHYtj-3nAXlVXdClOX20V-rtMMCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492099530404-g2ltj1q3tau3rb3ehfoo0df0cq1pgc5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
